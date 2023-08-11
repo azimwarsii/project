@@ -15,7 +15,7 @@ export default withPageAuthRequired(function ProfileApi() {
 
   return (
 <>
-      <h1>LeaderBoard</h1>
+      <h1>A-I Chat BOT</h1>
       <pre data-testid="profile-api">{JSON.stringify(user, null, 2)}</pre>
     </>
   );

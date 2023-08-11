@@ -22,28 +22,6 @@ function index() {
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>{error.message}</div>;
-
-
-  // const createUser = async () => {
-  //   try{
-  //     const response = await fetch("/api/prompt/new",
-  //     {
-  //         method:'POST',
-  //         body: JSON.stringify({
-  //             email:user,
-  //             username:user,
-  //             image:user
-  //         }),
-  //     })
-  //     if (response.ok){
-  //         router.push("/home");
-  //     }
-  //   }catch(error){
-  //     console.log(error)
-  //   }
-  //   }
-
-
   if (user) {
     console.log(user);
     const username = user.name;
@@ -57,12 +35,6 @@ function index() {
 
     <Contents />
     </>
-    //   {/* <div>
-    //   Welcome {user.name}! <a href="/api/auth/logout">Logout</a>
-    //   <br></br>
-    //   Your nickname is {user.nickname}.
-    //  </div>
-    //  </> */}
     );
   }
     return(
@@ -89,7 +61,6 @@ function index() {
     </>
 
     ) 
-  // <a href="/api/auth/login">Login</a>;
 }
 
 export default index;

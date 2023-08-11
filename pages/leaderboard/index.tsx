@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from 'react';
 import { withPageAuthRequired } from '@auth0/nextjs-auth0/client';
 
@@ -5,6 +7,7 @@ import { withPageAuthRequired } from '@auth0/nextjs-auth0/client';
 
 export default withPageAuthRequired(function ProfileApi() {
   const [user, setUser] = useState();
+
 
   useEffect(() => {
     (async () => {

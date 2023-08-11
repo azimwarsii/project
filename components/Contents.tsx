@@ -31,7 +31,7 @@ const Contents = () => {
 
       <Link href='/leaderboard'>
       <div  className="max-w-sm rounded overflow my-10 mx-10 shadow-lg  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300">
-      <svg className="w-[190px] h-[170px] mx-20 pt-2 w-[30px] h-[30px] text-gray-700 dark:text-gray" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+      <svg className="w-[190px] h-[170px] mx-20 pt-2 text-gray-700 dark:text-gray" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M1 1v14h16M4 10l3-4 4 4 5-5m0 0h-3.207M16 5v3.207"/>
       </svg>
      {/* <Image 
@@ -51,7 +51,7 @@ const Contents = () => {
 
     <Link href='/booking'>
       <div  className="max-w-sm rounded overflow my-10 mx-10 shadow-lg  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300">
-      <svg className="w-[190px] h-[170px] mx-20 pt-2 w-[30px] h-[30px] text-gray-700 dark:text-gray" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 19">
+      <svg className="w-[190px] h-[170px] mx-20 pt-2 text-gray-700 dark:text-gray" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 19">
       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M11 4C5.5-1.5-1.5 5.5 4 11l7 7 7-7c5.458-5.458-1.542-12.458-7-7Z"/>
       </svg>
      {/* <Image 
