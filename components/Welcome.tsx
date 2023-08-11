@@ -16,7 +16,7 @@ const Welcome = ({user}) => {
       <a
       type='button' 
       className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-110 hover:bg-red-400 duration-300"
-      href="/api/auth/login">
+      href="/profile">
         Profile
       </a>
     </div>
