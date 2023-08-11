@@ -2,7 +2,7 @@ import React from "react";
 // changes
 const navigation = () => {
   return (
-    <div class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
+    <div class="fixed z-50 w-11/12 h-16 max-w-md -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
       <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
         <button
           data-tooltip-target="tooltip-home"
@@ -56,7 +56,7 @@ const navigation = () => {
           <button
             data-tooltip-target="tooltip-new"
             type="button"
-            class="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800"
+            class="inline-flex items-center justify-center w-10 h-10 font-medium bg rounded-full bg-red-500 hover:bg-red-100 focus:outline-none dark:focus:ring-blue-800"
           >
             <svg
               class="w-4 h-4 text-white"
