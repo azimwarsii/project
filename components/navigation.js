@@ -1,7 +1,7 @@
 import React from "react";
 const navigation = () => {
   return (
-    <div class="fixed z-50 w-11/12 h-16 max-w-md -translate-x-1/2  border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
+    <div class="fixed z-50 w-11/12 h-16 max-w-md -translate-x-1/2  border border-gray-200 rounded-full bg-black bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
       <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
         <button
           data-tooltip-target="tooltip-home"

@@ -10,9 +10,9 @@ const index = () => {
             <Image
               src="/7.png"
               alt="Profile Picture"
-              width={20}
-              height={20}
-              class="w-20 h-20 mx-auto mt-6 rounded-full border-4 border-white shadow-md"
+              width={5000}
+              height={5000}
+              class="w-40 h-40 mx-auto mt-6 rounded-full border-4 border-white shadow-md"
             />
           </div>
           <div class="p-4">

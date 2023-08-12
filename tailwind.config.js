@@ -29,11 +29,9 @@ module.exports = {
       "2xl": "1.56rem",
       "5xl": "2.5rem",
     },
-    // height: { xl: "187px" },
-    // width: { xl: "212px" },
     letterSpacing: {
       tightest: "-.009rem",
-      normal: "0",
+      normal: "0.1 rem",
       widest: ".2rem",
     },
     extend: {
