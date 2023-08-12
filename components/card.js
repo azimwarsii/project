@@ -3,10 +3,10 @@ import React from "react";
 const card = (props) => {
   const color = props.color;
   return (
-    <div className="pl-3 pt-4">
+    <div class="inline-block pl-3 pt-4 ">
       <a
         href="#"
-        className={`block  w-xl h-xl bg-green-500 rounded-2xl shadow hover:bg-gray-100 ${color} `}
+        className={`block w-[212px] h-[187px] max-w-xs overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out rounded-2xl hover:bg-gray-100 ${color} `}
       >
         <div className="pl-4 pt-4">
           <svg
